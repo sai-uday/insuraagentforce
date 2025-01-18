@@ -2,6 +2,8 @@
 
 # Insurance Website with Agentforce Assistance
 
+overview of demo in ppt: https://1drv.ms/p/c/cb4039015d95bb32/EZjsrtYo8ndNvwhbTIYggDIBFpNdX0fo0zIRZfnPdU2d-A?e=GC6604
+
 #Project Overview 
 This project integrates Salesforce **Agentforce** as a virtual assistant(using embedded messaging) to enhance the user experience on an insurance platform. The solution is designed to assist customers in choosing the right insurance products, streamline claim settlement processes, and provide end-to-end support for various insurance-related needs.
 
