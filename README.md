@@ -34,9 +34,12 @@ IA
 Insura AI joined • 2:48 PM
 IA
 Hi, I'm Insura AI from Galaxy Life. How can I assist you today?
+
 Insura AI • 2:48 PM
+
 about all insurance products you have
 Sent • 2:49 PM
+
 IA
 Here are the insurance products we offer:
 
@@ -47,8 +50,10 @@ Here are the insurance products we offer:
 
 Do you need details on any specific product or plan?
 Insura AI • 2:49 PM
+
 about health insurance
 Sent • 2:49 PM
+
 IA
 Could you please provide your name and phone number so I can assist you better?
 Insura AI • 2:49 PM
@@ -63,8 +68,10 @@ We offer the following plan types for Health Insurance:
 
 Would you like details on any specific plan type?
 Insura AI • 2:50 PM
+
 about premium plan
 Sent • 2:50 PM
+
 IA
 Here are the details for the Premium Health Insurance plan:
 
@@ -110,8 +117,10 @@ Exclusions:
 
 Would you like more information or assistance with anything else?
 Insura AI • 2:50 PM
+
 diffrence between all these plans
 Sent • 2:51 PM
+
 IA
 Here are the differences between the Basic, Standard, and Premium Health Insurance plans:
 
@@ -217,8 +226,10 @@ Maximum Coverage: ₹2,00,000
 
 Would you like more information or assistance with anything else?
 Insura AI • 2:51 PM
+
 i have a budget of 100 dollar per month which is best
 Sent • 2:51 PM
+
 IA
 Given your budget of $100 per month, the Standard Plan might be the best fit for you. It offers a good balance of coverage and benefits, including:
 
@@ -238,8 +249,10 @@ The Standard Plan provides a higher coverage limit and more comprehensive benefi
 
 Would you like to proceed with more details or assistance in enrolling in the Standard Plan?
 Insura AI • 2:51 PM
+
 i like the product and i want to purchase
 Sent • 2:52 PM
+
 IA
 Great! You can proceed with the purchase by following this "payment link" (https://ac1729747848962.my.site.com/tesca121/paymentpage).
 
@@ -251,14 +264,16 @@ Insura AI joined • 3:02 PM
 IA
 Hi, I'm Insura AI from Galaxy Life. How can I assist you today?
 Insura AI • 3:02 PM
+
 raise a claim
 Sent • 3:02 PM
-IA
+
+
 Sure, I can help with that. Could you please provide your membership ID?
 Insura AI • 3:02 PM
 9,822,965
 Sent • 3:02 PM
-IA
+
 Thank you for providing your membership ID. You are a member with a Basic tier.
 
 Could you please provide the details of the incident for the claim? Please include the following information in your description:
@@ -267,15 +282,19 @@ Could you please provide the details of the incident for the claim? Please inclu
 2. Details about the accident or incident (e.g., was it an accident or suicide).
 3. When did the accident happen, and how many days have passed since the accident?
 Insura AI • 3:02 PM
+
 i underwent emergency appendicitis surgery at a network hospital, . The hospitalization lasted three days in a private room, and the total claim amount of 250000. I notified the insurer within 1048 hours and submitted all required documents
 Sent • 3:03 PM
+
 IA
 Thank you for the details. I'll update your case with this information.
 
 Please confirm if you have any necessary documents available for upload. If so, I will provide you with the link to upload them.
 Insura AI • 3:03 PM
+
 yes
 Sent • 3:03 PM
+
 IA
 Great! You can upload your necessary documents using the following link:
 
@@ -283,7 +302,9 @@ Great! You can upload your necessary documents using the following link:
 
 Your case ID for further verification is 500Kd00002UBxVHIA1. If you need any more assistance, feel free to ask!
 Insura AI • 3:03 PM
+
 can i know the case id
 Sent • 3:03 PM
+
 IA
 Sure! Your case ID is 500Kd00002UBxVHIA1. If you need any further assistance, feel free to ask!
