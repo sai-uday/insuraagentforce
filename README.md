@@ -254,7 +254,7 @@ i like the product and i want to purchase
 Sent • 2:52 PM
 
 IA
-Great! You can proceed with the purchase by following this "payment link" (https://ac1729747848962.my.site.com/tesca121/paymentpage).
+Great! You can proceed with the purchase by following this "payment link" (https://sample.my.site.com/tesca121/paymentpage).
 
 If you need any further assistance, feel free to ask!
 
