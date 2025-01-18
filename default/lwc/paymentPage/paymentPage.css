@@ -1,0 +1,15 @@
+.payment-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f3f4f6;
+    text-align: center;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

@@ -1,0 +1,48 @@
+<template>
+    <div class="payment-container">
+        <h1>Payment Page</h1>
+        <form onsubmit={handlePayment} novalidate>
+            <lightning-input
+                label="Card Number"
+                name="cardNumber"
+                type="text"
+                maxlength="16"
+                placeholder="1234 5678 9012 3456"
+                required>
+            </lightning-input>
+
+            <div class="input-row">
+                <lightning-input
+                    label="Expiry Date"
+                    name="expiryDate"
+                    type="text"
+                    placeholder="MM/YY"
+                    required>
+                </lightning-input>
+
+                <lightning-input
+                    label="CVV"
+                    name="cvv"
+                    type="password"
+                    maxlength="3"
+                    placeholder="123"
+                    required>
+                </lightning-input>
+            </div>
+
+            <lightning-input
+                label="Amount"
+                name="amount"
+                type="number"
+                placeholder="Enter amount"
+                required>
+            </lightning-input>
+
+            <lightning-button
+                label="Pay Now"
+                type="submit"
+                variant="brand">
+            </lightning-button>
+        </form>
+    </div>
+</template>

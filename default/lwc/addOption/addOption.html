@@ -1,0 +1,67 @@
+<template>
+    <div style="background-color: white;" class="slds-p-around_medium">
+        <div lwc:if={createScreen}>
+        <div class="slds-text-heading_large slds-align_absolute-center" style="height:3rem">TEST APP</div>
+        <div for:each={master} for:item="question" for:index="questionIndex" key={question.questionNumber}>
+            <div class="slds-box slds-m-bottom_small">
+                <div class="slds-m-bottom_small">
+
+                    <lightning-textarea name="input1" label={question.questionNumber} value={question.questionDetails}
+                        data-question-index={questionIndex} onchange={updateQuestionDetails}>
+                    </lightning-textarea>
+                </div>
+                <div>
+                    <div for:each={question.options} for:item="iter" for:index="optionIndex" key={iter.name}>
+                        <div style="display: flex; justify-content: space-between;">
+                            <div style="width: 100%;">
+                                <lightning-input style="width: 97%;" value={iter.value} label={iter.name}
+                                    data-question-index={questionIndex} data-option-index={optionIndex}
+                                    onchange={updateOptionValues}>
+                                </lightning-input>
+                            </div>
+                            <div  style="display: flex; align-items: center;" class="slds-m-right_large">
+                                <input type="radio" id="html" name={questionIndex} onclick={chooseOption} data-option-index={optionIndex} data-question-index={questionIndex} value="Choose">
+                                <label class="slds-m-left_small">SELECT</label>
+                            </div>
+                            <div style="display: flex; align-items: flex-end;">
+                                <lightning-button variant="destructive" data-question-index={questionIndex}
+                                    data-option-index={optionIndex} label="Delete" onclick={deleteOption}>
+                                </lightning-button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-m-top_small" style="display: flex;">
+                    <div class="slds-m-right_medium" style="display: flex;">
+                        <lightning-button variant="success" label="+ Add Option" data-question-index={questionIndex}
+                            onclick={addOption}>
+                        </lightning-button>
+                    </div>
+
+                    <div style="display: flex;">
+
+                        <lightning-button variant="destructive" label="Delete Question"
+                            data-question-index={questionIndex} onclick={deleteQuestion}>
+                        </lightning-button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="slds-m-top_small">
+            <lightning-button variant="brand-outline" onclick={addQuestion} label="+ Add Question">
+            </lightning-button>
+        </div>
+        <div lwc:if={masterLength} class="slds-align_absolute-center slds-m-top_medium">
+            <lightning-button variant="success" onclick={submitQuiz} label="SUBMIT"></lightning-button>
+        </div>
+    </div>
+    <div lwc:if={SucessScreen} class="slds-align_absolute-center slds-text-heading_large" style="height:5rem">
+        CONGRATULATIONS! YOUR QUIZ IS LIVE!!
+    </div>
+    
+    </div>
+</template>

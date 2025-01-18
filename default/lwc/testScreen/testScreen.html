@@ -1,0 +1,31 @@
+<template>
+    <div style="background-color: white;" class="slds-p-around_medium">
+        <div lwc:if={entryScreen}>
+            <div class="slds-text-align_center slds-text-heading_large">
+                <p>QUIZ APP</p>
+            </div>
+            <lightning-input type="text" label="Enter ID" data-id="checkinput"></lightning-input>
+            <div class="slds-text-align_center slds-m-top_small">
+                <lightning-button variant="Brand" label="Check" onclick={CheckQuiz}></lightning-button>
+            </div>
+        </div>
+        <div lwc:if={quizScreen} class="slds-box slds-m-bottom_small">
+            <div for:each={quizdata} for:item="iter" key={iter.Id} for:index="questionIndex">
+                <div>
+                    <p class="slds-text-heading_medium slds-m-bottom_medium">{iter.Question_Number__c}: {iter.Question_Questoin__c}</p>
+                    <div class="slds-text-heading_small slds-m-bottom_small" for:each={iter.Quiz_Options__r} for:item="optIter" key={optIter.Id} for:index="optionIndex">
+                       <input type="radio" onclick={checkOptions} data-queindex={questionIndex} name={questionIndex} data-optindex={optionIndex}>Option {optIter.Option_Number__c}: {optIter.Option_Info__c}
+                    </div> 
+                </div>
+                <p class="slds-border_bottom"></p>
+            </div>  
+            <div class="slds-text-align_center slds-m-top_medium">
+                <lightning-button variant="success" onclick={checkScore} label="SUBMIT"></lightning-button>
+            </div>
+        </div>
+        <div lwc:if={resultScreen} class="slds-align_absolute-center" style="height: 10rem;">
+                <lightning-progress-ring value={progressRing} size="large"> </lightning-progress-ring>
+            <p class="slds-text-heading_large slds-m-left_small">YOUR SCORE IS {tempscore} OUT OF {totalQuestions}</p>
+        </div>
+    </div>
+</template>
