@@ -285,7 +285,8 @@ Could you please provide the details of the incident for the claim? Please inclu
 3. When did the accident happen, and how many days have passed since the accident?
 Insura AI • 3:02 PM
 
-i underwent emergency appendicitis surgery at a network hospital, . The hospitalization lasted three days in a private room, and the total claim amount of 250000. I notified the insurer within 1048 hours and submitted all required documents
+I had to get emergency surgery for appendicitis. Thankfully, my policy was active, and I’d been keeping up with the premiums, plus the surgery itself was covered under my plan. I made sure to submit all the required documents, like the hospital bills and discharge summary. My total claim went over the ₹12,000, and apparently, the room I stayed in was  ₹5,000 per day. On top of that, I didn’t get pre-authorization for the surgery, which they said was needed for planned procedures.
+
 Sent • 3:03 PM
 
 IA
