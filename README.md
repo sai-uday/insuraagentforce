@@ -310,3 +310,7 @@ Sent • 3:03 PM
 
 IA
 Sure! Your case ID is 500Kd00002UBxVHIA1. If you need any further assistance, feel free to ask!
+
+Now, if we see the case, it looks like
+![image](https://github.com/user-attachments/assets/2712a107-73b2-4778-b75c-37cf264b8811)
+
